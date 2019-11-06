@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christina Jaro | Resume</title>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="stylesweek8.css">
+	<script>
+	function openSlideMenu() {
+		document.getElementById('menu').style.width = '250px';
+		document.getElementById('content').style.marginRight = '250px';
+	}
+		function closeSlideMenu() {		 
+		document.getElementById('menu').style.width = '0';
+		document.getElementById('content').style.marginRight = '0';
+	}
+	</script>
+</head>
+<body>
+<header class="header">
+	<img src="images/header_imgcropped.jpg") class="printimg">
+	<div class="nav">
+		<span class="slide">
+			<a href="#" onclick="openSlideMenu()">
+				<i class="fas fa-bars"></i>
+			</a>
+		</span>
+		
+	<div id="menu" class="nav"> 
+		<a href="#" class="close" onclick="closeSlideMenu()">
+		<i class="fas fa-times"></i>
+		</a>	
+
+<ul>
+  <li><a href="#1" class="navwords">Home</a></li>
+  <li><a href="#2" class="navwords">About Me</a></li>
+  <li><a href="#3" class="navwords">Potfolio</a></li>
+  <li><a href="#5" class="navwords">Contact Me</a></li>
+</ul>
+</div>
+  <div class="logo">
+	<img src="images/Untitled-1.png" alt="logo">
+	</div>
+	</div>
+</header>
+<div class="row body">
+<div class="photorow">
+    <img src="images/week8photo1.jpg" alt="bullseye painted on tree stump" style="width:100%">
+	<span class="caption">This is a photo that I've taken.</span>
+  </div>
+  <div class="photorow">
+    <img src="images/week8photo2.jpg" alt="skeeball game" style="width:100%">
+	  <span class="caption">This is also a photo that I've taken.</span>
+  </div>
+  <div class="photorow">
+    <img src="images/week8photo3.jpg" alt="man sitting in front of caruosel" style="width:100%">
+	  <span class="caption">This is a photo I've taken at the fair a couple years ago.</span>
+  </div>
+	</div>
+<footer>
+	<div class="footer">2019 Jaro Designs</div>
+	</footer>
+	</body>
+</html>
